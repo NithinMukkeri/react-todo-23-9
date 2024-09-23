@@ -1,0 +1,48 @@
+.list_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:white;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;           /* Centers the container in the viewport */
+    border: 2px solid #ccc;   /* Add a border with a light gray color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  }
+  li:hover{
+    transform: scale(1.02);
+  }
+  .check{
+    text-decoration: line-through;
+    color: green;
+  }
+  div{
+    margin: 10px;
+  }
+  .trash{
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+    color: rgb(62, 59, 59);
+  }
+  .edit{
+    width: 20px;
+    height: 20px;
+    color: rgb(62, 59, 59);
+  }
+.trash:hover{
+  transform: scale(1.30);
+  color: red;
+}
+.edit:hover{
+  transform: scale(1.30);
+  color:greenyellow;
+}
+.text{
+  padding-right: 20px;
+}
